@@ -1,0 +1,495 @@
+body {
+    max-width: 1500px;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 790px;
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+    background-position: center;
+    background-image: url('../image/bg.jpg');
+}
+
+@font-face {
+    font-family: MyriadPro-CondIt;
+    src: url("../font/FontsFree-Net-MYRIADPRO-CONDIT.ttf");
+}
+
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url("../font/Myriad\ Pro\ Regular.ttf");
+}
+
+.logo {
+    /* height: 80px; */
+    font-family: MyriadPro-CondIt;
+    font-size: 36.4px;
+    font-weight: bold;
+    font-style: italic;
+    /* line-height: 36.4px; */
+    letter-spacing: normal;
+    text-align: left;
+    color: #00a8ff;
+    padding: 54px 0px 0px 201px;
+}
+
+.logo h1 {
+    /* font-size: 2vw; */
+}
+
+.main_menu {
+    /* width: 592px; */
+    margin-top: 61px;
+    padding-left: 100px;
+}
+
+.main_menu li {
+    display: inline;
+    /* width: 592px;
+    height: 12px; */
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.main_menu li a {
+    padding: 61px 20px 20px 20px;
+    color: var(--white);
+    font-size: 16px;
+}
+
+.content_banner {
+    text-align: center;
+    margin-top: 224px;
+}
+
+.content_banner h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    color: #00a5ff;
+}
+
+.content_banner p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    /* width: 1118px;
+    height: 69px; */
+    margin: 20px 196px 231px 186px;
+}
+
+.content_banner a {
+    left: 706px;
+    top: 651px;
+    z-index: 316;
+    width: 50px;
+    height: 50px;
+}
+
+.content_banner i {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.about {
+    height: 611px;
+    margin-left: 180px;
+    margin-top: 106px;
+    background-color: #ffffff;
+    /* transform: scale(1); */
+    /* box-sizing: border-box; */
+}
+
+.about h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -0.68px;
+    text-align: left;
+    color: #222222;
+}
+
+.underline {
+    width: 99px;
+    height: 5px;
+    background-color: #0096ff;
+    margin-top: 10px;
+}
+
+.text_about {
+    width: 428px;
+    height: 242px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: -0.72px;
+    text-align: left;
+    color: #6c6c6c;
+    margin-top: 56px;
+}
+
+.read_more {
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    height: 45px;
+    width: 192px;
+    line-height: 2.75;
+    background-color: var(--white);
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #616161;
+    padding-left: 40px;
+    margin-top: 37px;
+}
+
+.about_image img {
+    height: 451px;
+    width: 451px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.underline2 {
+    width: 99px;
+    height: 5px;
+    background-color: #0096ff;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.underline_copy {
+    width: 67px;
+    height: 5px;
+    background-color: #0096ff;
+    margin-top: 9px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.character {
+    height: 726px;
+}
+
+.tittle_character h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.55;
+    letter-spacing: normal;
+    color: var(--white);
+}
+
+.id_character {
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 212px;
+    margin-left: 202px;
+}
+
+.id_character img {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.character h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: var(--white);
+    margin-top: 23px;
+    margin-bottom: 33px;
+}
+
+.character p {
+    width: 249px;
+    height: 62px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.the_crew {
+    height: 635px;
+}
+
+.tittle_crew h1 {
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #222222;
+    margin-left: 641px;
+}
+
+.the_crew h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6c6c6c;
+}
+
+.novellas {
+    height: 517px;
+}
+
+.novel_title h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: var(--white);
+    margin-left: 581px;
+    padding-top: 101px;
+}
+
+.arc {
+    margin: 58px 0px 68px 65px;
+    font-family: 'Open Sans', sans-serif;
+    color: #cbcbcb;
+    font-size: 18px;
+}
+
+.arc p {
+    height: 105px;
+    width: 299px;
+    border: solid 1px #3e3e3e;
+    background-color: #000000;
+}
+
+.arc1 p {
+    color: #cbcbcb;
+    padding: 43px 0px 0px 24px;
+}
+
+.arc2 p {
+    text-align: center;
+    padding: 43px 0px 0px 0px;
+    color: #cbcbcb;
+}
+
+.arc3 p {
+    text-align: center;
+    padding: 43px 0px 0px 24px;
+    color: #cbcbcb;
+}
+
+.arc4 p {
+    text-align: center;
+    padding: 43px 0px 0px 0px;
+    color: #cbcbcb;
+}
+
+.button {
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    height: 45px;
+    width: 192px;
+    line-height: 2.75;
+    background-color: var(--white);
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #616161;
+    padding-left: 40px;
+    margin: 23px 647px 70px 661px;
+}
+
+.our_world {
+    height: 1333px;
+}
+
+.our_world h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    color: #222222;
+    margin-top: 100px;
+    margin-left: 546px;
+}
+
+.our_world h5 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    color: #6c6c6c;
+    margin: 0px 183px 112px 182px;
+}
+
+.our_links h3 {
+    margin-left: 179px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    color: #222222;
+}
+
+.our_links p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6c6c6c;
+    margin-bottom: 50px;
+}
+
+.our_image {
+    margin-left: 179px;
+    margin-right: 179px;
+}
+
+.our_image img {
+    margin-bottom: 30px;
+}
+
+.bazaar {
+    height: 562px;
+}
+
+.bazaar_title h1 {
+    margin-top: 101px;
+    font-family: OpenSans;
+    font-size: 44px;
+    font-weight: 600;
+    color: var(--white);
+    margin-left: 667px;
+}
+
+.bazaar_title h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    color: #f0f0f0;
+    margin-left: 278px;
+    margin-right: 277px;
+}
+
+.lineee {
+    margin: 0px 701px 0px 699px;
+}
+
+.lineee1 {
+    margin: 0px 716px 0px 716px;
+}
+
+.form_contact {
+    height: 834px;
+}
+
+.contact_title h1 {
+    text-align: center;
+    margin-top: 101px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.contact_title h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    color: #808080;
+    margin: 0px 384px 117px 381px;
+}
+
+.contact_name {
+    display: flex;
+    margin: 0px 375px 53px 375px;
+}
+
+.contact_name input {
+    height: 40px;
+    width: 360px;
+}
+
+.message {
+    margin: 0px 375px 0px 375px;
+}
+
+.message input {
+    height: 163px;
+    width: 751px;
+}
+
+.form_contact button {
+    height: 40px;
+    width: 165px;
+    margin: 32px 375px 102px 960px;
+}
+
+.footer {
+    height: 92px;
+    background-color: #222222;
+}
+
+.footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.3px;
+    color: #808080;
+    margin: 43px 0px 40px 133px;
+}
+
+.footer_icon {
+    text-align: center;
+    margin-top: 31px;
+}
+
+.footer_icon img {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: var(--greyish);
+}
